@@ -7,6 +7,8 @@ enum Architecture { x86, x64, ppc64le, arm64;
             return ppc64le;
         } else if (arch.equals("aarch64")) {
             return arm64;
+        } else if (arch.equals("s390x")) {           
+            return s390x;    
         } else {
             return arch.contains("64") ? x64 : x86;
         }
