@@ -91,7 +91,7 @@ final class DefaultArchiveExtractor implements ArchiveExtractor {
 		                            IOUtils.closeQuietly(in);
 		                            IOUtils.closeQuietly(out);
 		                        }
-                        }
+			}
                     }
                 } finally {
                     zipFile.close();
